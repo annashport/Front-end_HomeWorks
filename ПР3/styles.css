@@ -1,0 +1,42 @@
+.task1{
+    width: 600px;
+    height: 120px;
+    padding: 15px;
+    margin: 20px;
+    background-color: azure;
+    box-sizing: border-box;
+}
+.task2{
+    width: 360px; 
+    height: 220px;
+    padding: 15px 10px 20px;
+    margin-bottom: 30px;
+    border-style: dashed;
+    border-color: red;
+    border-width: 2px;
+    background-color: green;
+}
+.task2 img{
+    width: 200px;
+    height: 200px;
+}
+.task3{
+    width: 600px; 
+    height: 600px;
+    margin: 30px;
+}
+.left {
+    float: left;
+    margin: 0px 20px 10px 0px;
+    width: 250px;
+    height: 138px;
+}
+.task3 p{
+    text-align:justify; 
+}
+.right{
+    margin: 20px 0px 10px 20px;
+    float: right;  
+    width: 170px;
+    height: 95px;
+}

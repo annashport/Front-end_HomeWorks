@@ -1,0 +1,177 @@
+/* завдання 1 */
+.task1{
+    background-color: #0d5825;
+    width: 500px;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+.task1 q{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.task1 p{
+    font-size: 22px;
+    padding: 0;
+    margin: 3px 0px 130px 0px;
+    font-style: italic;
+}
+.card01, .card02, .card03{
+    width: 150px; 
+    position: relative;
+    transition: bottom .3s ease-in .15s;
+}
+.card01{
+    transform: rotate(-20deg);
+    left: 100px;
+    bottom: 0;
+}
+.card02{
+    transform: rotate(-5deg);
+    bottom: 0;
+}
+.card03{
+    transform: rotate(10deg);
+    right: 100px;
+    bottom: -20px;
+}
+.card01:hover, .card02:hover, .card03:hover{bottom: 20px;}
+
+/* завдання 2 */
+.task2{
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    position: relative;
+}
+.pink-cube, .blue-cube, .green-cube{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.pink-cube{
+    background-color: #ff8888;
+    top:0;
+    left: 0;
+}
+.blue-cube{
+    background-color: #7e8aeb;
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+.green-cube{
+    background-color: #4def99;
+    bottom: 0;
+    right: 0;
+}
+
+/* завдання 3 */
+.task3{
+    width: 225px;
+    height: 450px;
+    position: relative;
+    left: -250px; 
+    transition: left .26s ease-out ; 
+}
+ .task3:hover{left:0px; }
+
+.menu-list .romb{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-color: black;
+    float: left;
+    border-width: 2px;
+    border-style: solid;
+    transform: rotate(50deg)
+}
+.menu-list>ul li{
+    padding: 10px;
+}
+.menu-list>ul li a{
+    padding-left: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    transition: color .1s ease-in ;
+}
+.menu-list>ul li a:hover{
+color: rgb(255, 200, 0);
+}
+.menu-list{
+    background-color: gray;
+    width: 275px;
+    height: 400px;
+    float: left;
+    /* transition: opacity .10s ease-in .30s; */
+}
+.menu-list ul{
+    margin-left: -30px;
+}
+.menu-btn{
+    position: absolute;
+    left: 60px; 
+    top: 188px;
+    background-color: gray;
+    width: 400px;
+    height: 25px;
+    opacity: 1;
+    transition: opacity .20s ease-in ;
+    transform: rotate(90deg);
+}
+.menu-list:hover + .menu-btn{
+    opacity: 0;
+}
+.menu-btn>p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+
+/* завдання 4 */
+.task4 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.cube {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: move 3s ease 1s infinite normal forwards running;
+}
+@keyframes move {
+    0% {
+      top: 0px;
+      left: 0px;
+      background-color: red;
+    }
+    25%{
+        top: 200px;
+      left: 0px;
+      background-color: blue;
+    }
+    50% {
+      top: 200px;
+      left: 200px;
+      background-color: green;
+    }
+    75%{
+        top: 0px;
+      left: 200px;
+      background-color: yellow;
+    }
+    100%{
+        top: 0px;
+      left: 0px;
+      background-color: red;
+    }
+  }

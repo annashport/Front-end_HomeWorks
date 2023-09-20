@@ -1,0 +1,28 @@
+q {color: green;}
+
+a[href^="https"] {color: red;}
+
+.holder .list > li:last-child a {background-color: green;}
+
+.list + p{font-size: 26px;}
+
+.text-box h3:first-of-type {color: pink;}
+
+#greycol{color:grey;}
+
+.text-box > div > p{color:red;}
+
+.text-box > p:nth-last-of-type(2){color:green;}
+
+.yellow{color: yellow;}
+
+.bg-box{
+    width: 1500px; 
+    height: 700px;
+    background: url(pole-zelen-trava-dom-derevya.jpg) center center / auto auto no-repeat, 
+    url(green-png-44873.png) bottom / 250px 250px repeat-x,
+    url(lamp-png-34914.png) top / 40px 60px repeat-x,
+    url(їжак.webp) left / 50px 50px repeat-y,
+    url(donut.png) right / 50px 50px repeat-y;
+    background-color: green;
+}
